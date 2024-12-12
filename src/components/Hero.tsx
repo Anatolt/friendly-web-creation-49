@@ -27,7 +27,7 @@ export const Hero = () => {
         {language.toUpperCase()}
       </button>
 
-      <div className="absolute top-10 right-20">
+      <div className="absolute top-10 left-20">
         <MoonIcon className="text-yellow-200 w-8 h-8 animate-float" />
       </div>
       
