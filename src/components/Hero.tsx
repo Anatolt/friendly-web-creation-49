@@ -38,10 +38,12 @@ export const Hero = () => {
         <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-2xl mx-auto">
           {t.hero.subtitle}
         </p>
-        <Button size="lg" className="bg-primary hover:bg-primary/90">
-          <SparklesIcon className="mr-2 h-5 w-5" />
-          {t.hero.button}
-        </Button>
+        <a href="https://t.me/neiroskazki_god_bot" target="_blank" rel="noopener noreferrer">
+          <Button size="lg" className="bg-primary hover:bg-primary/90">
+            <SparklesIcon className="mr-2 h-5 w-5" />
+            {t.hero.button}
+          </Button>
+        </a>
       </div>
     </div>
   );

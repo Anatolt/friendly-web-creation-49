@@ -30,6 +30,11 @@ export const translations = {
         privacy: "Privacy Policy",
         terms: "Terms of Service",
         contact: "Contact"
+      },
+      support: {
+        title: "Support",
+        telegram: "Telegram Support",
+        email: "Email Support"
       }
     }
   },
@@ -64,6 +69,11 @@ export const translations = {
         privacy: "Политика конфиденциальности",
         terms: "Условия использования",
         contact: "Контакты"
+      },
+      support: {
+        title: "Поддержка",
+        telegram: "Поддержка в Телеграм",
+        email: "Поддержка по электронной почте"
       }
     }
   }
