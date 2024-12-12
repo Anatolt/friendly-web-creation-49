@@ -28,14 +28,31 @@ export const translations = {
       forDreamers: "for little dreamers",
       links: {
         privacy: "Privacy Policy",
-        terms: "Terms of Service",
-        contact: "Contact"
+        terms: "Terms of Service"
       },
       support: {
         title: "Support",
         telegram: "Telegram Support",
         email: "Email Support"
       }
+    },
+    privacy: {
+      title: "Privacy Policy",
+      content: [
+        "This Privacy Policy describes how we collect, use, and handle your personal information when you use our services.",
+        "We take your privacy seriously and are committed to protecting your personal data.",
+        "We only collect information that is necessary to provide you with our services and improve your experience.",
+        "Your data is securely stored and we never share it with third parties without your explicit consent."
+      ]
+    },
+    terms: {
+      title: "Terms of Service",
+      content: [
+        "By accessing and using our services, you agree to be bound by these Terms of Service.",
+        "Our service is intended for personal, non-commercial use only.",
+        "You must not use our service for any illegal or unauthorized purpose.",
+        "We reserve the right to modify or terminate the service for any reason, without notice at any time."
+      ]
     }
   },
   ru: {
@@ -67,14 +84,31 @@ export const translations = {
       forDreamers: "для маленьких мечтателей",
       links: {
         privacy: "Политика конфиденциальности",
-        terms: "Условия использования",
-        contact: "Контакты"
+        terms: "Условия использования"
       },
       support: {
         title: "Поддержка",
         telegram: "Поддержка в Телеграм",
         email: "Поддержка по электронной почте"
       }
+    },
+    privacy: {
+      title: "Политика конфиденциальности",
+      content: [
+        "Настоящая Политика конфиденциальности описывает, как мы собираем, используем и обрабатываем вашу личную информацию при использовании наших услуг.",
+        "Мы серьезно относимся к вашей конфиденциальности и стремимся защитить ваши личные данные.",
+        "Мы собираем только ту информацию, которая необходима для предоставления наших услуг и улучшения вашего опыта.",
+        "Ваши данные надежно хранятся, и мы никогда не передаем их третьим лицам без вашего явного согласия."
+      ]
+    },
+    terms: {
+      title: "Условия использования",
+      content: [
+        "Используя наши услуги, вы соглашаетесь с настоящими Условиями использования.",
+        "Наш сервис предназначен только для личного, некоммерческого использования.",
+        "Вы не должны использовать наш сервис в незаконных или несанкционированных целях.",
+        "Мы оставляем за собой право изменять или прекращать работу сервиса по любой причине, без уведомления в любое время."
+      ]
     }
   }
 };

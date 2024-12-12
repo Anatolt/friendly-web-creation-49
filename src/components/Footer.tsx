@@ -1,6 +1,7 @@
 import { Heart } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { translations } from "@/utils/translations";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   const { language } = useLanguage();
@@ -14,15 +15,12 @@ export const Footer = () => {
             {t.footer.rights}
           </p>
           <div className="flex items-center space-x-4">
-            <a href="#" className="text-sm text-gray-300 hover:text-primary">
+            <Link to="/privacy" className="text-sm text-gray-300 hover:text-primary">
               {t.footer.links.privacy}
-            </a>
-            <a href="#" className="text-sm text-gray-300 hover:text-primary">
+            </Link>
+            <Link to="/terms" className="text-sm text-gray-300 hover:text-primary">
               {t.footer.links.terms}
-            </a>
-            <a href="#" className="text-sm text-gray-300 hover:text-primary">
-              {t.footer.links.contact}
-            </a>
+            </Link>
           </div>
         </div>
         <div className="mt-4 text-center text-sm text-gray-300">
